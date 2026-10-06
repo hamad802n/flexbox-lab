@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+  
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+
+
+nav {
+  background-color: rgb(255, 255, 255);
+  padding: 8px 16px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#destinations {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+#actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+nav button {
+  background-color: #ea4c89;
+  border-radius: 8px;
+  padding: 10px 16px;
+  border: 0;
+  color: white;
+  font-weight: 500;
+}
+
+
+
+section {
+  height: 460px;
+  background-color: black;
+  color: white;
+  padding: 24px 72px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#headers {
+    justify-content: center;
+  
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+input {
+  height: 58px;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 29px;
+  border: 0;
+  padding: 0 24px;
+}
+
+
+
+#trending {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 35px;
+  flex-wrap: wrap;
+  margin-top: 120px;
+}
+
+#trending p {
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  padding: 6px 15px;
+}
+
+
+#subnav {
+  padding: 32px 72px 0;
+  background-color: white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#subnav button {
+  border-radius: 8px;
+  padding: 10px 16px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+
+
+main {
+  background-color: white;
+  padding: 32px 72px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+
+
+.card {
+  width: 355px;
+}
+
+.img-placeholder {
+  width: 355px;
+  height: 270px;
+  background-color: gray;
+  border-radius: 8px;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 50px 0;
+}
+
+.card-footer {
+  font-size: 14px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-footer * {
+  margin-top: 8px;
+}
